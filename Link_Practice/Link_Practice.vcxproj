@@ -110,7 +110,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="alloc.h" />
     <ClInclude Include="link_interface.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="alloc.cpp" />
+    <ClCompile Include="link_impl.cpp" />
+    <ClCompile Include="test.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
